@@ -1,0 +1,16 @@
+/* 文字色変更css */
+.foco {
+	color : #BDBDBD;
+}
+
+/* 横線(--------) */
+._line {
+	border-bottom: 2px outset #dee7ec;
+}
+
+/* h1をカスタムする */
+.h1custom {
+	color : #D8D8D8;
+	font-size : 12em;
+	text-align: center;
+}
