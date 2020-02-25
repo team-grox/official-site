@@ -6,7 +6,7 @@
 /* 横線(--------) */
 ._line {
 	border-bottom: 2px outset #dee7ec;
-	padding : 
+	padding : 0 0 0 0
 }
 
 /* h1をカスタムする */
@@ -28,5 +28,48 @@
 .custom_p {
 	color : #D8D8D8;
 	text-align : left;
-	font-size : 2em
+	font-size : 2em;
+}
+
+/* 以下3つTwitterボタン関連 */
+.tw-follow-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 66px;
+	height: 20px;
+	color: #fff;
+	font-size: 10px;
+	font-family: 'Helvetica Neue', Arial, sans-serif;
+	text-decoration: none;
+	line-height: 1;
+	background-color: #1b95e0;
+	border-radius: 3px;
+	letter-spacing: normal;
+	display:inline;
+}
+.tw-follow-btn:hover {
+	background-color: #0c7abf;
+}
+
+.tw-follow-btn:before {
+	content: '\f099';
+	padding-right: 5px;
+	width: 1em;
+	height: auto;
+	font-family: FontAwesome;
+}
+
+/* コンタクト追加のTwitter以外 */
+.morecontact {
+	color : #2E64FE;
+	font-size : 3em;
+	text-decoration: none;
+}
+
+/* .morecontactの中央寄せ */
+.morecontactcenter {
+	display:inline-block;
+	text-align:center;
+	width:100%;
 }
