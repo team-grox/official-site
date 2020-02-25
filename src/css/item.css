@@ -6,6 +6,7 @@
 /* 横線(--------) */
 ._line {
 	border-bottom: 2px outset #dee7ec;
+	padding : 
 }
 
 /* h1をカスタムする */
@@ -13,4 +14,19 @@
 	color : #D8D8D8;
 	font-size : 12em;
 	text-align: center;
+	padding : 0 15px;
+}
+
+/* h2をカスタムする */
+.h2custom {
+	color : #D8D8D8;
+	font-size : 4em;
+	text-align: center;
+}
+
+/* pタグのカスタム */
+.custom_p {
+	color : #D8D8D8;
+	text-align : left;
+	font-size : 2em
 }
