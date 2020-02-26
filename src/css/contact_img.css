@@ -11,12 +11,12 @@
 /* パソコンで見たときは"_pc"のclassがついた画像が表示される */
 .utahiro_image_pc {
 	display: block !important;
-	width: 800px;
-	height: 800px;
+	width: 750px;
+	height: 750px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-25%, -25%);
+	transform: translate(-50%, -40%);
 }
 
 .utahiro_box_pc {
@@ -41,12 +41,12 @@
 
 .utahiro_image_sp {
 	display: block !important;
-	width: 800px;
-	height: 800px;
+	width: 100px;
+	height: 100px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-25%, -25%);
+	transform: translate(-50%, -40%);
 }
 
 .utahiro_box_sp {
