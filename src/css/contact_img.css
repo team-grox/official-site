@@ -16,7 +16,7 @@
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-25%, -25%);
+	transform: translate(-50%, -40%);
 }
 
 .utahiro_box_pc {
@@ -46,7 +46,7 @@
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-25%, -25%);
+	transform: translate(-35%, -25%);
 }
 
 .utahiro_box_sp {
