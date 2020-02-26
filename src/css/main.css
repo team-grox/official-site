@@ -1,11 +1,3 @@
-body {
-	background-color : #2E2E2E
-}
-
-.body1 {
-	background-color : #2E2E2E
-}
-
-.body2 {
-	background-color : #151515
-}
+@import url("./axis.css");
+@import url("./item.css");
+@import url("./contact_img.css")

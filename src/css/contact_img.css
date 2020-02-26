@@ -1,0 +1,68 @@
+/* 以下2つ自己紹介ページ画像関連 */
+.utahiro_box {
+	width: 450px;
+	height: 450px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 300px;
+	margin: 20px 250px 20px 250px
+}
+
+/* パソコンで見たときは"_pc"のclassがついた画像が表示される */
+.utahiro_image_pc {
+	display: block !important;
+	width: 800px;
+	height: 800px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-25%, -25%);
+}
+
+.utahiro_box_pc {
+	width: 450px;
+	height: 450px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 300px;
+	margin: 20px 250px 20px 250px
+}
+
+.utahiro_image_sp {
+	display: none !important;
+}
+
+.utahiro_box_sp {
+    display: none !important;
+}
+
+/* スマートフォンで見たときは"_sp"のclassがついた画像が表示される */
+@media only screen and (max-width: 750px) {
+
+.utahiro_image_sp {
+	display: block !important;
+	width: 800px;
+	height: 800px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-25%, -25%);
+}
+
+.utahiro_box_sp {
+	width: 450px;
+	height: 450px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 300px;
+	margin: 20px 250px 20px 250px
+}
+
+.utahiro_image_pc {
+	display: none !important;
+}
+
+.utahiro_box_pc {
+    display: none !important;
+}
+}
