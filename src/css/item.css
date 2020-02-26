@@ -81,3 +81,22 @@
 	text-align:center;
 	width:100%;
 }
+
+/* 以下2つ自己紹介ページ画像関連 */
+.utahiro_box {
+	width: 450px;
+	height: 450px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 300px;
+	margin: 20px 250px 20px 250px
+}
+
+.utahiro_image {
+	width: 800px;
+	height: 800px:
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-25%, -25%);
+}

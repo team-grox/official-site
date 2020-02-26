@@ -20,6 +20,7 @@
 }
 
 .utahiro_box_pc {
+	display: block !important;
 	width: 450px;
 	height: 450px;
 	position: relative;
@@ -41,8 +42,8 @@
 
 .utahiro_image_sp {
 	display: block !important;
-	width: 100px;
-	height: 100px;
+	width: 30px;
+	height: 30px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -50,6 +51,7 @@
 }
 
 .utahiro_box_sp {
+	display: block !important;
 	width: 450px;
 	height: 450px;
 	position: relative;
