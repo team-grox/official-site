@@ -1,0 +1,22 @@
+.btn_wp {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.btn {
+    padding: 8px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.twitter {
+    background-color: #66ccff;
+    box-shadow: 0 7px #0099ff;
+}
+
+.fa {
+    margin-right: 5px;
+}
