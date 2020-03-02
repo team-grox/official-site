@@ -68,3 +68,76 @@
     display: none !important;
 }
 }
+
+
+
+
+.risu_box {
+	width: 450px;
+	height: 450px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 300px;
+	margin: 20px 250px 20px 250px
+}
+
+/* パソコンで見たときは"_pc"のclassがついた画像が表示される */
+.risu_image_pc {
+	display: block !important;
+	width: 750px;
+	height: 750px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -40%);
+}
+
+.risu_box_pc {
+	display: block !important;
+	width: 450px;
+	height: 450px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 300px;
+	margin: 20px 250px 20px 250px
+}
+
+.risu_image_sp {
+	display: none !important;
+}
+
+.risu_box_sp {
+    display: none !important;
+}
+
+/* スマートフォンで見たときは"_sp"のclassがついた画像が表示される */
+@media only screen and (max-width: 750px) {
+
+.utahiro_image_sp {
+	display: block !important;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-30%, -20%);
+}
+
+.risu_box_sp {
+	display: block !important;
+	width: 450px;
+	height: 450px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 300px;
+	margin: 20px 250px 20px 250px
+}
+
+.risu_image_pc {
+	display: none !important;
+}
+
+.risu_box_pc {
+    display: none !important;
+}
+}
